@@ -1,0 +1,57 @@
+.top-navbar {
+    -fx-background-color: white;
+    -fx-alignment: center-left;
+}
+
+.app-title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.welcome-label {
+    -fx-font-size: 25px;
+}
+
+.clock-container {
+    -fx-alignment: center;
+    -fx-padding: 5px;
+}
+
+.date-label {
+    -fx-font-size: 20px;
+}
+
+.clock-label {
+    -fx-font-size: 20px;
+    -fx-background-color: #3366FF;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 5px;
+}
+
+.user-role {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+.user-subrole {
+    -fx-font-size: 20px;
+    -fx-text-fill: gray;
+}
+
+.side-navbar {
+    -fx-background-color: #F5F5F5;
+    -fx-padding: 10px;
+}
+
+.nav-button {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-color: white;
+    -fx-border-color: #DDD;
+    -fx-border-radius: 5px;
+    -fx-text-fill: black;
+}
+.nav-button:hover {
+    -fx-background-color: #E0E0E0;
+}

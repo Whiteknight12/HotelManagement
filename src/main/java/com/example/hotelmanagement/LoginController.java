@@ -65,6 +65,7 @@ public class LoginController implements Initializable {
                     Parent root= FXMLLoader.load(getClass().getResource("layout/adminmainpage.fxml"));
                     Scene scene=new Scene(root);
                     stage.setScene(scene);
+                    stage.setTitle("Trang Chủ");
                     stage.show();
                 }
                 else
